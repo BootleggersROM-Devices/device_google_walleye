@@ -46,3 +46,6 @@ BOARD_USES_QC_TIME_SERVICES := true
 
 # Camera
 PRODUCT_PACKAGES += libion
+
+# Update engine
+PRODUCT_PACKAGES += brillo_update_payload
