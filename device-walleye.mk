@@ -40,3 +40,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # UI
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.use_fifo_ui=1
+
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
