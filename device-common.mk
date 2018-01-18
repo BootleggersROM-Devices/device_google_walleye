@@ -119,3 +119,10 @@ PRODUCT_PACKAGES += \
     telephony-ext
  PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager.xml \
+    com.android.ims.rcsmanager \
+    RcsService \
+    PresencePolling
