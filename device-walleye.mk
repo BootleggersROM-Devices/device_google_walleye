@@ -26,7 +26,7 @@ PRODUCT_HARDWARE := walleye
 ifdef DEVICE_PACKAGE_OVERLAYS
 $(warning Overlays defined in '$(DEVICE_PACKAGE_OVERLAYS)' will override '$(PRODUCT_HARDWARE)' overlays)
 endif
-DEVICE_PACKAGE_OVERLAYS += device/google/walleye/walleye/overlay
+PRODUCT_PACKAGE_OVERLAYS += device/google/walleye/walleye/overlay
 
 include device/google/walleye/device-common.mk
 
