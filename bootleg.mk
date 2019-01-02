@@ -54,3 +54,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootleggers.maintainer=slothdabski
 
 TARGET_DEVICE := walleye
+
+BOOTLEGGERS_BUILD_TYPE := Shishufied
